@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#! /usr/bin/env python3
 from bs4 import BeautifulSoup
 from ics import Calendar, Event
 import requests
