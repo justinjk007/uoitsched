@@ -8,9 +8,7 @@ from urllib import parse
 from dateutil.parser import parse as date_parse
 import traceback
 
-# Fall semester, 2017
-default_start_date = "2018-01-08"
-
+default_start_date = "2019-01-08"
 
 with open('template.html', 'r') as f:
     template = f.read()
